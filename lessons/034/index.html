@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>034 События на мобильных устройствах</title>
+
+    <style>
+        body {
+            height: 1000px;
+            background-color: rgb(95, 94, 94);
+            font-family: Arial, serif;
+            margin: 50px;
+            padding: 50px;
+            
+        }
+        .box {
+            width: 150px;
+            height: 100px;
+            background-color: rgb(209, 52, 52);
+            padding: 20px;
+            color: #fff;
+        }
+    </style>
+
+</head>
+<body>
+    <div class="box">
+        Touch me!
+    </div>
+
+    <h1>События на мобильных устройствах</h1>
+    <h3>Виды событий:</h3>
+    <ul>
+        <li>//touchstart - событие на косание экрана</li>
+        <li>//touchmove - событие на движение пальцев</li>
+        <li>//touchend - событие срабатывает при отрыве пальца от экрана</li>
+        <li>//touchenter - событие срабатывает при наскальзывании пальца на элемент</li>
+        <li>//touchleave - событие срабатывает при уходе пальца с элемента</li>
+        <li>//touchcancel - событие срабатывает при уходе пальца c области</li>
+    </ul>
+    <h3>Свойства событий:</h3>
+    <ul>
+        <li>//touches - информация о тапе</li>
+        <li>//targetTouches - информация о тапах, которые взаимодействуют с конкретным элементом</li>
+    </ul>
+
+    
+<script src="script.js"></script>
+
+</body>
+</html>

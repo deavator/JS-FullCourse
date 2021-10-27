@@ -1,0 +1,25 @@
+body {
+    font-family: serif;
+    background-color: rgb(165, 165, 165);
+    margin: 0;
+    padding: 0;
+}
+
+.box {
+    box-sizing: border-box;
+    background-color: #fff;
+    width: 400px;
+    height: 350px;
+    margin: 0 auto;
+    margin-top: 50px;
+    padding: 15px;
+    overflow: scroll;
+}
+
+button {
+    width: 100px;
+    height: 40px;
+    display: block;
+    margin: 0 auto;
+    margin-top: 20px;
+}
